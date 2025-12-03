@@ -13,9 +13,6 @@ var_dump($name);
 echo "<br>". PI;
 echo "<br>". pi();
 
-
-
-
 ?>
 </html>
 
