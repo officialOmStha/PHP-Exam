@@ -1,6 +1,12 @@
+
+
 <html>
 
 <?php
+// It starts form here. If you want to see specific portion then you can
+// comment out other portion and see the result of each block of code for yourself.
+// It will make you more engeged in the practice. Thank You and Best Of Luck...
+
 define("PI", 3.14); // this is one way to define a constant datatype is float.
 
 $age = 21; //this is a variable with integer datatype
