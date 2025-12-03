@@ -85,6 +85,33 @@ function add($x, $y){ //defining function with parameters
 myMessage(); //calling a function
 add(7,8); //calling functions with parameters.
 add($age,PI);
+
+//Arraay in PHP
+$items = array("Hammer", 1 , ["a", "211"], 'b');
+var_dump($items); //array with 4 different datatypes
+echo $items[1] . "<br>"; //getting individual item from an array
+
+
+$list = array("Ram" => 20, "Shyam" => 18, "Laxman" => 17); //associative array
+echo "The age of Shyam is ";
+echo $list["Shyam"] .".<br>";
+
+//Multidimensional array
+
+$cars = array ( //Defining an multi dimensional array.
+  array("Volvo",22,18),
+  array("BMW",15,13),
+  array("Saab",5,2),
+  array("Land Rover",17,15)
+);
+
+for($i = 0; $i <=3; $i++){ //displaying the contents of the multidimensional array.
+    echo "<br> Row " . $i.": <br>";
+    for($j = 0; $j <=2; $j++){
+        echo $cars[$i][$j] . " , ";
+    }
+}
+
 ?>
 </html>
 
