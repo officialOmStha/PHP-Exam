@@ -22,6 +22,16 @@
             echo $name . "<br>";
             echo $email . "<br>";
             echo $pass . "<br>";
+
+            if($name == ""){
+                echo "Name required.";
+            }
+            if(!str_contains($email, "@")){
+                echo "email failed.";
+            }
+            if(strlen($pass)< 8){
+                echo "passowrd is short";
+            }
         }
 
     ?>
