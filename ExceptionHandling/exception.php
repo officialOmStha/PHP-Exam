@@ -23,12 +23,12 @@
 
         try {
             if ($d == 0) {
-                throw new Exception("Cannot devide by zero");
+                throw new Exception("Cannot divide by zero");
             }
             $ans = (int)$n / (int)$d;
             echo "The answer is : " . $ans . "<br>";
         } catch (Exception $e) {
-            echo "Error" . $e->getMessage();
+            echo "Error :" . $e->getMessage();
         }
     }
     ?>
