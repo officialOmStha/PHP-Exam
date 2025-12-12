@@ -1,0 +1,9 @@
+In PHP, a function is a reusable block of code designed to perform a specific task.
+Functions are created using the function keyword followed by a name and parentheses.
+Inside the curly braces {}, you write the statements that the function should execute.
+You can also pass information into a function using parameters,
+and return a value using the return keyword. For example,
+a function like addNumbers($a, $b) can take two numbers, add them,
+and return the result. Using functions makes programs cleaner, easier to
+ understand, and reduces repetition since the same function can be used
+ multiple times throughout the code.    
